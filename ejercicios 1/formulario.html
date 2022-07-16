@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio HTML 1</title>
+  </head>
+
+  <body>
+    <form method="get" action="#">
+    <fieldset>
+      <legend>
+        Hoja de formulario:
+      </legend>
+        <label for="nombre" for="auto" for="required">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" >
+        <label for="email" for="required">Email:</label>
+            <input type="email" id="email" name="email">
+        <label for="web" for="place">Web personal:</label>
+            <input type="url" id="web" name="web" placeholder="Escribe la URL de tu página web personal">
+        <label for="dob">Fecha de nacimiento:</label>
+            <input type="date" id="dob" name="dob">
+        <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" >
+        <label for="fecha y hora">Fecha y hora:</label>
+            <input type="datetime-local" id="fecha y hora" name="fecha y hora" >
+        <label for="mes">Mes:</label>
+            <input type="month" id="mes" name="mes" >
+        <label for="semana">Semana:</label>
+            <input type="week" id="semana" name="semana" >
+        <label for="número entre -10 y +10">Número:</label>
+            <input type="number" min="-10" max="10" id="número" name="número" >
+        <label for="teléfono" for="reandonly">Teléfono:</label>
+            <input type="tel" id="teléfono" name="teléfono" >
+        <label for="búsqueda" for="disabled">Barra de búsqueda:</label>
+            <input type="search" id="búsqueda" name="búsqueda">
+        <label for="color">Escoge tu color favorito:</label>
+            <input type="color" id="color" name="color">
+        <label for="submit" for="#">Enviar</label>
+            <input type="submit" value="enviar" id="enviar" name="enviar">
+  </fieldset>
+</form>
+  </body>
+</html>
